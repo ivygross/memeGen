@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Ivy's Meme Generator</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="meme-div">
+      <h1>Welcome to Ivy's Meme Generator</h1>
+      <p>Please input the following and have a great time!</p>
+
+      <form id="memeForm">
+        <p>
+          <label>
+            Image URL: <br />
+            <input type="url" placeholder="image url" name="image" />
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Top Text: <br />
+            <input type="text" placeholder="text here" name="topText" />
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Bottom Text: <br />
+            <input type="text" placeholder="text here" name="bottomText" />
+          </label>
+        </p>
+
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <br />
+    <br />
+    <section id="results">
+      <div class="container">
+        <div id="memesList">
+
+        </div>
+      </div>
+    </section>
+
+    <script src="memes.js"></script>
+  </body>
+</html>

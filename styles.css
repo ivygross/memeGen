@@ -1,0 +1,48 @@
+#meme-div {
+    text-align: center;
+    background-color: #D6CDA4 ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1C6758 ;
+    color: #1C6758;
+}
+h1 {
+    padding-top: 20px;
+    color: #1C6758;
+
+}
+form {
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+input {
+    width: 50%;
+}
+
+.topText {
+    font-size: 60px;
+    top: 5%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .bottomText {
+    font-size: 60px;
+    bottom: 20%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .memeDiv {
+    position: relative;
+    text-align: center;
+  }
